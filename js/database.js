@@ -2,7 +2,9 @@
 var table = new Tabulator("#example-table", {
     height:"311px",
     layout:"fitColumns",
-    ajaxURL:"https://etchavious.github.io/KMS2AH/data/itemdatabase.json",
+    ajaxURL:"data/itemdatabase.json",
+	ajaxConfig:"GET",
+	ajaxContentType:"json",
     ajaxProgressiveLoad:"scroll",
     paginationSize:20,
     placeholder:"No Data Set",
