@@ -2,7 +2,7 @@
 var table = new Tabulator("#example-table", {
     height:"311px",
     layout:"fitColumns",
-    ajaxURL:"/data/itemdatabase.json",
+    ajaxURL:"https://etchavious.github.io/KMS2AH/data/itemdatabase.json",
     ajaxProgressiveLoad:"scroll",
     paginationSize:20,
     placeholder:"No Data Set",
